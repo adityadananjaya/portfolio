@@ -1,0 +1,94 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Software
+  filter: "software"
+- name: Data Science
+  filter: "data"
+- name: University
+  filter: "university"
+- name: Personal
+  filter: "personal"
+- name: Work
+  filter: "work"
+
+projects:
+- name: vm-riskxvii
+  logo: images/projects/kubernetes.png
+  role: Sole Developer
+  timeline: "2023"
+  repo: https://github.com/adityadananjaya/vm-riskxvii
+  # url: ""
+  summary: A virtual machine programmed in C that simulates a basic subset of RISC-V architecture.
+  tags: ["software", "university"]
+- name: Long-range Detection of Dockyard Images
+  logo: images/projects/kubernetes.png
+  role: Developer
+  timeline: "2024"
+  repo: https://github.com/adityadananjaya/longrange_detection_AI
+  # url: ""
+  summary: A study of High-Res vs Low-Res Images for Long-Range AI Detection of Vehicles, done for a client.
+  tags: ["software", "data", "work"]
+- name: Connect-4 AI Bot (Minimax & AB Pruning)
+  logo: images/projects/kubernetes.png
+  role: Developer
+  timeline: "2024"
+  repo: https://github.com/adityadananjaya/connect4-minmax
+  # url: ""
+  summary: A barebones AI Bot for playing Connect 4 with minimax and Alpha-Beta Pruning.
+  tags: ["software", "university"]
+- name: Connect-4 Bot Web App (Full Stack)
+  logo: images/projects/kubernetes.png
+  role: Developer
+  timeline: "2024"
+  url: https://connect4-frontend.onrender.com/
+  summary: A full-stack web app using React JS for the Connect-4 front-end and Django for the RESTful API; all back-end logic, including the AI and game handling, is in Python. (NOTE -- since I am using a free host for the web server, it might take a long time to connect with the back-end.)
+  tags: ["software", "personal"]
+- name: Mouse Braincell ML study
+  logo: images/projects/kubernetes.png
+  role: Developer
+  timeline: "2024"
+  repo: https://github.com/adityadananjaya/braincell_image_ML
+  # url: ""
+  summary: Evaluating the effectiveness of different machine learning models and masking techniques on classification of brain cell images.
+  tags: ["data", "university"]
+- name: ProgExchange
+  logo: images/projects/kubernetes.png
+  role: Sole Developer
+  timeline: "2023"
+  repo: https://github.com/adityadananjaya/ProgExchange
+  # url: ""
+  summary: A low-level digital marketplace simulator written in C, making use of signals, processes and pipes (FIFOs)
+  tags: ["software", "university"]
+- name: Infant Birth Weight Predictor
+  logo: images/projects/kubernetes.png
+  role: Developer
+  timeline: "2023"
+  repo: https://github.com/adityadananjaya/infantbirthweightml
+  # url: ""
+  summary: Using multivariable linear regression to predict infant birth weight based on maternal conditions.
+  tags: ["data", "university"]
+- name: Starship Bouncy
+  logo: images/projects/kubernetes.png
+  role: Solo Game Developer
+  timeline: "2021"
+  url: https://adityadan.itch.io/starship-bouncy
+  summary: Bounce into and swerve out of planets in this action packed space game! Developed with the Godot game engine, for the Genre Mash Game Jam.
+  tags: ["software", "personal"]
+- name: The Potato Wars
+  logo: images/projects/kubernetes.png
+  role: Solo Game Developer
+  timeline: "2021"
+  url: https://adityadan.itch.io/the-potato-wars
+  summary: Gain the most potatoes in this idle game, inspired by the YouTube minecraft-based series The Great Potato War, by Technoblade. Developed with the Godot game engine.
+  tags: ["software", "personal"]

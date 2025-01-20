@@ -1,0 +1,45 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+experiences:
+- company:
+    name: Insite Project Solutions Pty Ltd
+    url: "https://www.linkedin.com/company/insite-au/posts/?feedView=all"
+    location: Sydney, New South Wales, Australia
+    logo: /images/experiences/company.png
+    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Building 'smart' AI for construction project controls using ultra-high resolution imagery.
+  positions:
+  - designation: AI/ML Researcher
+    start: Jul 2024 - Nov 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Worked with a team of engineers to evaluate the efficacy of low-res dock images against high-res for image detection
+    - Developed a web dashboard to visualize and analyse data.
+    - Developed a pipeline to automate the entire process of running and validating image processing models on different resolution images
+    - Analysed results of validation, wrote a research paper, and delivered crucial reccomendations to client
+- company:
+    name: Nadya Salon & Ganesh Cafe
+    url: "https://www.instagram.com/nadyasalondanspa/?hl=en"
+    location: Bekasi, West Java, Indonesia
+    logo: /images/experiences/company.png
+    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Beauty salon and cafe. 
+  positions:
+  - designation: Freelance Developer
+    start: 2022 - 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Developed back-end infrastructure and front-end client UI for sales accounting and automated calculation of the salaries of 300+ employees, and generating employee pay slips. 
